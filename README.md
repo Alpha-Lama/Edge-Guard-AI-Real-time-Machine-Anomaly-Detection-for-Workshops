@@ -1,7 +1,9 @@
 Why AI & Computer Vision
+
 EdgeGuard leverages AI-powered computer vision to automate continuous safety monitoring—a task impossible for humans to perform 24/7 across multiple machines. Traditional manual inspections are periodic, subjective, and miss real-time hazards. Our system uses OpenCV's edge detection algorithms and gradient analysis to identify anomalous patterns that indicate safety risks, providing objective, quantitative metrics updated every second.
 
 Workflow
+
 Video feeds from workshop cameras flow through a processing pipeline: frames are captured and preprocessed, then analyzed using multi-scale Canny edge detection at three granularities. Sobel gradient analysis extracts edge strength and orientation. Spatial clustering identifies localized anomaly patterns. Quality metrics (density, sharpness, orientation balance) are calculated and compared against camera-specific baselines. When deviations exceed thresholds, alerts are generated with severity scoring and dispatched to operators via a real-time dashboard.
 
 
