@@ -1,0 +1,2 @@
+# Edge-Guard-AI-Real-time-Machine-Anomaly-Detection-for-Workshops
+AI-powered edge analytics for workshop safety. Monitors camera feeds using OpenCV edge detection to identify anomalies in real-time. Node.js pipeline processes frames, calculates quality metrics, flags hazards. Deploys on AWS EKS with autoscaling. React dashboard shows live alerts &lt;2s. Replaces manual monitoring—scales to 200+ cameras.
